@@ -30,6 +30,15 @@ INSTALLED_APPS = (
 )
 ```
 
+Since as of June 2016, Google requires an API key, this must now be configured 
+in settings:
+ 
+```python
+GMAPS_API_KEY = '...'
+``` 
+
+You can get an API key [here](https://developers.google.com/places/web-service/)
+
 ## The Model
 
 The rationale behind the model structure is centered on trying to make
